@@ -1,0 +1,29 @@
+# Minimal requirements for CLaRa Stage 3
+# This is a subset of requirements.txt with only essential packages
+
+# Core ML/AI packages
+torch==2.2.0
+torchaudio==2.2.0
+torchvision==0.17.0
+transformers==4.40.0
+
+# Model loading and handling
+safetensors>=0.4.0
+huggingface-hub>=0.19.0
+peft>=0.4.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+datasets>=2.10.0
+
+# Training utilities (optional)
+accelerate>=0.20.0
+deepspeed>=0.10.0
+
+# Utilities
+pydantic>=2.0.0
+python-dotenv>=0.21.0
+tqdm>=4.60.0
+click>=8.0.0
+rich>=13.0.0

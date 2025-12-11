@@ -1,0 +1,40 @@
+# Modelos (demasiado grandes para Git)
+models/clara-e2e/
+models/mistral-7b-instruct/
+
+# Caché de HuggingFace
+.cache/
+*.cache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
+.tmp/
