@@ -21,7 +21,7 @@ import torch
 from torch.optim import Optimizer
 from tqdm import tqdm
 
-from openrlhf.models import SFTLoss
+# from openrlhf.models import SFTLoss
 from openrlhf.utils.distributed_sampler import DistributedSampler
 
 # Set torch print options for better debugging
@@ -192,7 +192,6 @@ class SFTTrainer(ABC):
         self.optimizer = optim
         self.scheduler = scheduler
         self.tokenizer = tokenizer
-        self.loss_fn = SFTLoss()
         
         # Training configuration
         self.epochs = max_epochs
