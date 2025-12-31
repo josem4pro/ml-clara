@@ -1,6 +1,8 @@
 # Modelos (demasiado grandes para Git)
-models/clara-e2e/
-models/mistral-7b-instruct/
+models/
+
+# Entorno virtual
+venv_clara/
 
 # Caché de HuggingFace
 .cache/
